@@ -348,7 +348,7 @@ opacity:0;
 			 }
 		}
 	</style>
-                <div class="loadly_ao_ourservices">
+                <div class="loadly_ao_ourservices full">
 				     <div style="color:	teal;">
                      <span class="loadly_titles_sub1">Dry Cleaning<br /><br /></span>
 					 </div>
@@ -359,7 +359,7 @@ opacity:0;
 					</span>
                 </div> &nbsp; 
                 
-                <div class="loadly_ao_ourservices">
+                <div class="loadly_ao_ourservices full">
 				        <div style="color:	teal;">
                   	  <span class="loadly_titles_sub1"> Wash & Fold <br /> <br /></span>
 					  </div>
@@ -369,7 +369,7 @@ opacity:0;
                      <span class="loadly_contents_fonts">washed and crisply folded.</span>
                 </div>&nbsp; 
                 
-				<div class="loadly_ao_ourservices">
+				<div class="loadly_ao_ourservices full">
 				     <div style="color:	teal;">
                       <span class="loadly_titles_sub1"> Hang Dry<br /> <br /> </span>
 				    </div>
@@ -407,7 +407,7 @@ Pursuant to the North Carolina Governor’s reopening plan, all employees have t
 	
 	
 <div style="background:#fff; padding-top:150px;">
-		<div class="loadly_ao_delivery">
+		<div class="loadly_ao_delivery full">
 
 			<div style="background-image:url('images/track.svg'); background-size: fit; background-repeat:no-repeat; height:100px; vertical-align:top">  </div>
 	
@@ -425,7 +425,7 @@ Pursuant to the North Carolina Governor’s reopening plan, all employees have t
             </div> 
 		</div>   
         
-        <div class="loadly_ao_delivery">
+        <div class="loadly_ao_delivery full">
 
 			<div style="background-image:url('images/shirt.svg'); background-size: fit; background-repeat:no-repeat;  height:100px; vertical-align:top">  </div>
 	
@@ -442,7 +442,7 @@ Pursuant to the North Carolina Governor’s reopening plan, all employees have t
             </div> 
 		</div>   
         
-         <div class="loadly_ao_delivery">
+         <div class="loadly_ao_delivery full">
 
 			<div style="background-image:url('images/guarantee.svg'); background-size: fit; background-repeat:no-repeat;  height:100px; vertical-align:top"> </div>
 	
@@ -539,7 +539,7 @@ Pursuant to the North Carolina Governor’s reopening plan, all employees have t
 </div>  
 
 <div style="margin-top: 10px">
-		<div class="loadly_ao_forbusiness">
+		<div class="loadly_ao_forbusiness full">
 
            <div style="border:0px solid #999; margin-top:5px">
 		             <div style="color:	teal;">
@@ -552,7 +552,7 @@ Pursuant to the North Carolina Governor’s reopening plan, all employees have t
             </div> 
 		</div>   
         
-        <div class="loadly_ao_forbusiness">
+        <div class="loadly_ao_forbusiness full">
 	
            <div style="border:0px solid #999; margin-top:5px">
 		             <div style="color:	teal;">
@@ -565,7 +565,7 @@ Pursuant to the North Carolina Governor’s reopening plan, all employees have t
             </div> 
 		</div>   
         
-         <div class="loadly_ao_forbusiness">
+         <div class="loadly_ao_forbusiness full">
 	
            <div style="border:0px solid #999; margin-top:5px">
 		           <div style="color:	teal;">
@@ -638,8 +638,8 @@ Pursuant to the North Carolina Governor’s reopening plan, all employees have t
         <span class="loadly_titles_sub2"> Get in touch <br/></span>
 </div> 
 
-<div class="loadly_getintouch">
-		<div class="loadly_aboutyou">
+<div class="loadly_getintouch full">
+		<div class="loadly_aboutyou full">
 		        <div style="color:	teal;">
                 <span class="loadly_titles_sub1">About you<br /><br /> </span>
 				</div>
@@ -673,7 +673,7 @@ Pursuant to the North Carolina Governor’s reopening plan, all employees have t
                     
 		</div>
 					
-      <div class="loadly_aboutcompany">
+      <div class="loadly_aboutcompany full">
 		        <div style="color:	teal;">
                   <span class="loadly_titles_sub1">Your Company<br /><br /> </span>
 				</div>
@@ -697,15 +697,16 @@ Pursuant to the North Carolina Governor’s reopening plan, all employees have t
 					<div style="display: block; margin-top: 30px;">
 					<textarea rows="4" cols="50" class="cinput" placeholder="Describe yourself here..." style="height: 100px;"></textarea>
 				   </div>
+<div class="clearfix mobile"></div>
 				  
                     
 		</div>
  
-
+<div class="clearfix mobile"></div>
 </div>
 
  
-<div class="loadly_requestinfo"> 
+<div class="loadly_requestinfo full"> 
 		   <div class="button" style="height: 40px; margin-top: 40px;">Request information</div>
 		 
 </div>

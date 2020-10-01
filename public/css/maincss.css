@@ -314,6 +314,25 @@
 	display: none;
 }
  @media only screen and (max-width: 600px) { 
+   .full {
+     width: 100%;
+   }
+   .loadly_ao_ourservices.full, .loadly_ao_delivery.full, .loadly_ao_forbusiness.full, .loadly_aboutyou.full, .loadly_aboutcompany.full {
+     display: block;
+     margin-top: 1em;
+     width: 100%;
+   }
+   .loadly_aboutcompany.full {
+     margin: 0;
+     margin-top: 2em;
+     height: auto;
+   }
+   .loadly_getintouch.full {
+     margin: 0;
+   }
+   .loadly_ao_delivery.full {
+     margin:2em 0;
+   }
 	.loadly_footer {
 		width: 48%;
 		margin: 2em 1%;
@@ -345,13 +364,22 @@
 	width: 92%;
 	margin: 0;
 }
+.clearfix.mobile {
+	display: block;
+}
 .clearfix.mobile:after{
 	display: table;
 	clear: both;
 	content: "";
 }
-.clearfix.mobile {
-	display: block;
+.loadly_requestinfo.full {
+  width: 100%;
+  display: block;
+}
+.loadly_requestinfo.full:after {
+ display: table;
+ content: "";
+ clear: both;
 }
 }
 
