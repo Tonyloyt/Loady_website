@@ -562,8 +562,9 @@ body {
 
 	
 	
+@include('footer')
 	
-<div class="loadly_div32">
+<!-- <div class="loadly_div32">
 
 		 <div class="loadly_footer">
 		  <span class="loadly_company">Company</span><br><br>
@@ -612,7 +613,7 @@ body {
 
 		</div>
 
-</div>
+</div> -->
 	
 	
 	

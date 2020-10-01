@@ -1363,7 +1363,7 @@ function showannualbilling(){
 </div><br /><br /><br/><br/><br/><br/><br/>
 	
 			
-		<div class="loadly_div32">
+		<!-- <div class="loadly_div32">
 
 	 <div class="loadly_footer">
 	  <span class="loadly_company">Company</span><br><br>
@@ -1408,8 +1408,8 @@ function showannualbilling(){
 	<img src="images/playstore.jpg" height="47px">
 	</div>
 
-	</div>
-	
+	</div> -->
+	@include('footer')
 </div>
 
 </div>					

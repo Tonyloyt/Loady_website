@@ -712,7 +712,7 @@ Pursuant to the North Carolina Governor’s reopening plan, all employees have t
 
 
 
-<div style="margin-left:80px;">
+<!-- <div style="margin-left:80px;">
 	<div class="loadly_div32">
 
 	 <div class="loadly_footer">
@@ -762,7 +762,7 @@ Pursuant to the North Carolina Governor’s reopening plan, all employees have t
 
 	</div>
 	
-</div>
+-->   @include('footer')</div>
 
 	</div>
 </div>	

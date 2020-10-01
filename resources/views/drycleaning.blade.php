@@ -1136,7 +1136,7 @@ one-time pickups</label>
 		</span>
 	</div>
 </div><br/>
-		<div class="loadly_div32">
+		<!-- <div class="loadly_div32">
 
 	 <div class="loadly_footer">
 	  <span class="loadly_company">Company</span><br><br>
@@ -1187,8 +1187,8 @@ one-time pickups</label>
 
 	</div>
 	
-</div>
-
+</div> -->
+@include('footer')
 	</div>					
 </div>
 	 

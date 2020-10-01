@@ -474,7 +474,7 @@ function menubg(){
 	     margin: 35px 5px 0 5px;  
 	 }
 	 .loadly_footer{
-	     margin: 35px 1% 0 0; 
+	     margin: 35px 1% 0 0div; 
 		 width: 48%;
 	 }
 	 .loadly_cleaning{
@@ -587,7 +587,7 @@ function menubg(){
 	
 	 <div class="loadly_divis" >
 	<video autoplay muted loop id="myVideo loadly_video">
-	  <source src="video/loadlyc.mp4" type="video/mp4">
+	  <source src="video/main.mp4" type="video/mp4">
 	</video>
 	</div>
 	
@@ -686,7 +686,7 @@ function menubg(){
 
 	<div class="loadly_div7">
 	<video autoplay muted loop id="myVideo" style="right: 0; bottom: 0; width: 100%; min-height: 100%;">
-	  <source src="video/loadlyc.mp4" type="video/mp4">
+	  <source src="video/video1.mp4" type="video/mp4">
 	</video>
 	</div>
 

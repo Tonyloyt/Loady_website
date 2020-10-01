@@ -115,7 +115,7 @@ body {
  .loadly_company{font-family: 'Merriweather Sans', sans-serif; color:#453536; font-size:1.2em; font-weight:600}
  .loadly_about{text-decoration:underline; font-family: 'Montserrat', sans-serif; color:#a29a9a; font-size:1.3em; line-height:2em}
  .loadly_div32{margin-top:100px;}
-.loadly_footer{display:inline-block; margin-right:20px; width:200px; vertical-align:top} 
+/* .loadly_footer{display:inline-block; margin-right:20px; width:200px; vertical-align:top}  */
 
  
 </style>
@@ -292,7 +292,7 @@ Our Laundry Bags just might put your washer & dryer out of a job. All items to w
             
 		<div class="sloadly_wvideo">
 	         <video autoplay muted loop id="myVideo" style="right: 0; bottom: 0; width: 100%; min-height: 100%;">
-			  <source src="video/loadlyc.mp4" type="video/mp4">
+			  <source src="video/video.mp4" type="video/mp4">
 			</video>
 	    </div>
 </div><br />
@@ -664,7 +664,7 @@ Our Laundry Bags just might put your washer & dryer out of a job. All items to w
 </div><br/>
 </div>
 
-<div class="loadly_div32">
+<!-- <div class="loadly_div32">
 	
 		<div class="loadly_footer">
 			  <span class="loadly_company">Company</span><br><br>
@@ -714,7 +714,8 @@ Our Laundry Bags just might put your washer & dryer out of a job. All items to w
 			</div>
 		</div>
 	 
-</div>
+</div> -->
+@include('footer')
 	
 </div>
 	

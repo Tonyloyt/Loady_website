@@ -23,7 +23,7 @@
 	
 	 </div> 
 
- 	<div class="clearfix"></div>
+ 	<div class="clearfix mobile"></div>
 	 <div class="loadly_footer">
 	  <span class="loadly_company">More Loadly</span><br><br>
 	<span class="loadly_about">
@@ -34,7 +34,7 @@
 	CA Do Not Sell My Info<br>
 	</span>
 	 </div>
-<div class="clearfix"></div>
+<div class="clearfix mobile"></div>
 <div class="loadly_footer loadly_footerright">
     <span class="loadly_company">Download our app</span><br /><br />
 	<span class="loadly_account">Loadly mobile app is the most convenient way to enjoy all Loadly services. 
