@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+	<style >
+		body {
+  margin: 20px 0;
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 1.25rem;
+  width: 300px;
+}
+
+form, div {
+  margin: 20px;
+
+}
+
+div.note {
+  font-size: 1rem;
+  color: red;
+}
+
+input {
+  
+  border: 1px solid #ccc;
+  padding: 4px;
+  font-family: 'Lato';
+  width: 300px;
+  margin-top: 10px;
+  
+}
+
+label {
+  width: 300px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 20px;
+
+}
+
+label span {
+  font-size: 1rem;
+}
+
+label.error {
+    color: red;
+    font-size: 1rem;
+    display: block;
+    margin-top: 5px;
+}
+
+input.error {
+    border: 1px dashed red;
+    font-weight: 300;
+    color: red;
+}
+
+[type="submit"], [type="reset"], button, html [type="button"] {
+    margin-left: 0;
+    border-radius: 0;
+    background: black;
+    color: white;
+    border: none;
+    font-weight: 300;
+    padding: 10px 0;
+    line-height: 1;
+}
+	</style>
+	<script >
+		
+
+$(document).ready(function() {
+  $("#basic-form").validate();
+});
+
+
+	</script>
+</head>
+<body>
+	<form id="basic-form" action="" method="post">
+    <div>
+    	<label for="name">Name <span>(required, at least 3 characters)</span></label>
+      <input id="name" name="name" minlength="3" type="text" required>
+    </div>
+      
+    <div>
+    		<label for="phoneno">
+    			PhoneNo<span>(required)
+    			</span>
+    			  <input type="number" name="phoneno" id="phoneno" maxlength="10" minlength="10" type="number" required>
+    		</label>
+    </div>
+     
+   <div>
+   	  <label for="email">E-Mail <span>(required)</span></label>
+      <input id="email" type="email" name="email" required>
+   </div>
+    
+    <div> <input class="submit" type="submit" value="SUBMIT"></div>
+      
+    
+
+</form>
+
+</body>
+</html>
