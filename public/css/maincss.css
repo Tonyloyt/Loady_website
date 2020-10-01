@@ -152,6 +152,7 @@
 .loadly_responsive_menu{
 	height:100px; background: white; margin-right: 5px; width:100%; position:fixed; top:-5px; verticle-align:center; padding: 20px 6px 20px 5px;
 	display: none;
+	z-index: 1000;
 }
 
 /******************************************/
@@ -205,7 +206,11 @@
 
 
  @media only screen and (max-width: 600px) { 
-	 
+	.loadly_footer {
+		width: 48%;
+		margin: 2em 1%;
+		float: left;
+	}
   .loadly_menu_div2{
 	  display: none;
 	 }
@@ -216,34 +221,27 @@
   .loadly_responsive_menu{
 	  display: block;
 	 }
-
-.loadly_footer {
-	width: 48%;
-	margin-right : 1%;
-	display: block;
-	float: left;
-	margin-top: 2em;
-
-}
-.loadly_footer:nth-child(3){
-	margin-top: 1em;
-	background: red;
-}
-.loadly_footerright{
+	 
+.loadly_footerright {
 	width: 100% !important;
 	margin-left: 0 !important;
 }
+	 
 .col-5 {
-	width:48%;
+	width: 48%;
 	float: left;
 }
+#div_main {
+	padding: 150px 4% 0 4%;
+	width: 92%;
+	margin: 0;
+}
 
 }
 
-
-
-.clearfix:after {
-	content: "";
-	clear: both;
+.clearfix:after{
 	display: table;
+	clear: both;
+	content: "";
 }
+

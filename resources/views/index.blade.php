@@ -6,7 +6,7 @@
 	
 <title>Loadly Laundry</title>
   
-<link rel="stylesheet" type="text/css" href="{{ URL::to('css/maincss.css?temp=10') }}">	
+<link rel="stylesheet" type="text/css" href="{{ URL::to('css/maincss.css?temp=08') }}">	
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;800&display=swap" />	
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Asap&display=swap" />	
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" />
@@ -473,10 +473,10 @@ function menubg(){
 		 width:  88%;
 	     margin: 35px 5px 0 5px;  
 	 }
-	 /* .loadly_footer{
-	     margin: 35px 5px 0 5px; 
-		 width: 100%;
-	 } */
+	 .loadly_footer{
+	     margin: 35px 1% 0 0; 
+		 width: 48%;
+	 }
 	 .loadly_cleaning{
 		 font-size: 3em;
 
